@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "User",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "first-name": {
+      "type": "string"
+    },
+    "last-name": {
+      "type": "string"
+    },
+    "dob": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "identificationCardType": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "id",
+    "first-name",
+    "last-name",
+    "dob",
+    "email",
+    "password"
+  ]
+}
